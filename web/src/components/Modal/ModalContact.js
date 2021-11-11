@@ -200,6 +200,7 @@ const Modal = ({ modalTabIndex }) => {
                       >
                         <img
                           src={data.residential.publicURL}
+                          alt="Residential Service"
                           className="mx-auto mb-4"
                         />
 
@@ -216,6 +217,7 @@ const Modal = ({ modalTabIndex }) => {
                       >
                         <img
                           src={data.commercial.publicURL}
+                          alt="Commercial Service"
                           className="mx-auto mb-4"
                         />
 

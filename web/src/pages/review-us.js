@@ -18,7 +18,7 @@ const Page = ({ data }) => {
         <div className="container">
           <div className="max-w-3xl mx-auto">
             <iframe
-              src="https://prodigy-plumbing-reviews-platform.com/"
+              src="https://prodigy-plumbing-reviews-platform.flywheelsites.com/"
               title="Reviews Platform"
               width="100%"
               height="1500px"
