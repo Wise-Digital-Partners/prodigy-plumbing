@@ -1,0 +1,20 @@
+.tl-edges {
+  overflow-x: initial !important;
+}
+
+a,
+button {
+  @apply text-primary-500 font-heading font-black outline-none transition-all duration-300 ease-linear;
+}
+
+.list-arrows {
+  @apply flex flex-col space-y-4 mt-10 mb-6;
+  li {
+    @apply font-heading flex items-center font-semibold;
+    &:before {
+      content: "\f324";
+      font-family: "Font Awesome 5 Pro";
+      @apply text-2xl font-bold text-secondary-400 mr-6;
+    }
+  }
+}

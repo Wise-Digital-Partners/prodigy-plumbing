@@ -1,28 +1,55 @@
-import React from "react";
-import Header from "./header";
+import React, { useState } from "react";
+import PropTypes from "prop-types";
+import { Helmet } from "react-helmet";
 
-import "../styles/layout.css";
-import * as styles from "./layout.module.css";
+import Header from "./Navigation/Header";
+import Footer from "./Footer/Footer";
 
-const Layout = ({ children, onHideNav, onShowNav, showNav, siteTitle }) => (
-  <>
-    <Header
-      siteTitle={siteTitle}
-      onHideNav={onHideNav}
-      onShowNav={onShowNav}
-      showNav={showNav}
-    />
-    <div className={styles.content}>{children}</div>
-    <footer className={styles.footer}>
-      <div className={styles.footerWrapper}>
-        <div className={styles.siteInfo}>
-          &copy; {new Date().getFullYear()}, Built with{" "}
-          <a href="https://www.sanity.io">Sanity</a> &amp;{" "}
-          <a href="https://www.gatsbyjs.org">Gatsby</a>
-        </div>
-      </div>
-    </footer>
-  </>
-);
+import ModalContact from "./Modal/ModalContact";
+
+const Layout = ({
+  children,
+  headerStyle,
+  headerLinkColor,
+  headerHasBorder,
+  headerDarkMode,
+  hideHeader,
+  hideFooter,
+  ctaHeading,
+  ctaText,
+  hideSubtext,
+  modalTabIndex,
+}) => {
+  return (
+    <div>
+      <Helmet></Helmet>
+      <Header
+        headerStyle={headerStyle}
+        headerLinkColor={headerLinkColor}
+        headerHasBorder={headerHasBorder}
+        headerDarkMode={headerDarkMode}
+        hideHeader={hideHeader}
+        modalTabIndex={modalTabIndex}
+      />
+      <main id="body-content" className="bg-white">
+        {children}
+      </main>
+      <Footer
+        hideFooter={hideFooter}
+        ctaHeading={ctaHeading}
+        ctaText={ctaText}
+        hideSubtext={hideSubtext}
+      />
+      <ModalContact modalTabIndex={modalTabIndex} />
+    </div>
+  );
+};
+
+Layout.propTypes = {
+  headerStyle: PropTypes.string,
+  headerLinkColor: PropTypes.string,
+  headerHasBorder: PropTypes.bool,
+  children: PropTypes.node.isRequired,
+};
 
 export default Layout;
