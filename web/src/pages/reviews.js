@@ -21,7 +21,6 @@ const Page = ({ data }) => {
         backgroundImages={data.heroDesktop.childImageSharp.gatsbyImageData}
         backgroundPosition="0 50%"
         textMaxWidth="md:max-w-[720px]"
-        // textAlignment=""
         padding="py-16 md:py-32"
       >
         <h1>Backed By Our Customers</h1>
