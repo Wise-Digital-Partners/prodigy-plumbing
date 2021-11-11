@@ -3,28 +3,28 @@ import { useStaticQuery, graphql } from "gatsby";
 import { GatsbyImage } from "gatsby-plugin-image";
 
 const InstagramFeed = ({ className, headingLevel }) => {
-  // const data = useStaticQuery(graphql`
-  //   query {
-  //     instagram: allInstaNode(
-  //       sort: { fields: timestamp, order: DESC }
-  //       limit: 4
-  //     ) {
-  //       edges {
-  //         node {
-  //           id
-  //           likes
-  //           comments
-  //           mediaType
-  //           localFile {
-  //             childImageSharp {
-  //               gatsbyImageData(layout: CONSTRAINED, width: 360)
-  //             }
-  //           }
-  //         }
-  //       }
-  //     }
-  //   }
-  // `);
+  const data = useStaticQuery(graphql`
+    query {
+      instagram: allInstaNode(
+        sort: { fields: timestamp, order: DESC }
+        limit: 4
+      ) {
+        edges {
+          node {
+            id
+            likes
+            comments
+            mediaType
+            localFile {
+              childImageSharp {
+                gatsbyImageData(layout: CONSTRAINED, width: 360)
+              }
+            }
+          }
+        }
+      }
+    }
+  `);
 
   const HeadingTag = headingLevel || "h3";
 
@@ -35,7 +35,7 @@ const InstagramFeed = ({ className, headingLevel }) => {
           <HeadingTag>Follow Us On Instagram</HeadingTag>
         </header>
 
-        {/* <div className="grid grid-cols-2 md:grid-cols-4 gap-2">
+        <div className="grid grid-cols-2 md:grid-cols-4 gap-2">
           {data.instagram.edges.map(({ node }) => {
             const { id, likes, mediaType, comments, localFile } = node;
             return (
@@ -69,7 +69,7 @@ const InstagramFeed = ({ className, headingLevel }) => {
               </a>
             );
           })}
-        </div> */}
+        </div>
       </div>
     </section>
   );
