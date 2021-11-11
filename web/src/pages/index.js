@@ -120,22 +120,24 @@ const Page = ({ data }) => {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-y-12 md:gap-x-10">
             {services.map((services, i) => {
               return (
-                <AniLink fade to={services.link} className="group" key={i}>
-                  <div className="relative overflow-hidden md:rounded-3xl mb-4">
-                    <GatsbyImage image={services.image} className="w-full" />
-                    <div className="bg-secondary-800/40 absolute bottom-0 left-0 w-full py-3 px-8">
-                      <div className="bg-secondary-800 w-6 group-hover:w-full h-full absolute top-0 left-0 transition-all duration-700 ease-in-out"></div>
-                      <span className="relative font-heading font-black text-white text-xl">
-                        {services.heading}
-                      </span>
+                <div>
+                  <AniLink fade to={services.link} className="group" key={i}>
+                    <div className="relative overflow-hidden md:rounded-3xl mb-4">
+                      <GatsbyImage image={services.image} className="w-full" />
+                      <div className="bg-secondary-800/40 absolute bottom-0 left-0 w-full py-3 px-8">
+                        <div className="bg-secondary-800 w-6 group-hover:w-full h-full absolute top-0 left-0 transition-all duration-700 ease-in-out"></div>
+                        <span className="relative font-heading font-black text-white text-xl">
+                          {services.heading}
+                        </span>
+                      </div>
                     </div>
-                  </div>
-                  <p className="mb-5 text-gray-600 font-normal">
-                    {services.text}
-                  </p>
+                    <p className="mb-5 text-gray-600 font-normal">
+                      {services.text}
+                    </p>
 
-                  <ButtonWithIcon href={services.link} text="Learn More" />
-                </AniLink>
+                    <ButtonWithIcon href={services.link} text="Learn More" />
+                  </AniLink>
+                </div>
               );
             })}
           </div>

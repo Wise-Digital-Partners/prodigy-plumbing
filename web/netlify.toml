@@ -1,9 +1,9 @@
 [build]
-  base = "web/project/"
-  publish = "public"
+  base = ""
+  publish = "/web/public"
 
 [[plugins]]
-  package = "netlify/plugin-gatsby"
+  package = "@netlify/plugin-gatsby"
 
 [[plugins]]
   package = "netlify-plugin-inline-critical-css"
