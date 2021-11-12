@@ -420,7 +420,7 @@ const MainNav = ({
                     <li>
                       <AniLink
                         fade
-                        to="/home-refinance-chicago/"
+                        to="/hvac-cerritos-long-beach/"
                         onKeyDown={clickHandler}
                         onClick={clickHandler}
                         className="font-heading text-xl text-secondary-800 hover:text-primary-500 font-black"

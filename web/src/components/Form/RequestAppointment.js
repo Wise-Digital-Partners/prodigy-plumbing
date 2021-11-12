@@ -40,7 +40,7 @@ export default class Form extends Component {
     super(props);
     this.state = {
       isValidated: false,
-      startDate: new Date(),
+      startDate: "",
     };
   }
 
@@ -48,12 +48,9 @@ export default class Form extends Component {
     this.setState({ [e.target.name]: e.target.value });
   };
 
-  handleDateChange = (date) => {
+  handleDateChange = (name, date) => {
     this.setState({ startDate: date });
-  };
-
-  handleDateTimeRangePickerChange = (_value) => {
-    this.handleChange({ target: { name: "select-a-day", value: _value } });
+    this.setState({ [name]: date });
   };
 
   step1Next = () => {
@@ -135,9 +132,9 @@ export default class Form extends Component {
 
                 <DatePicker
                   selected={this.state.startDate}
+                  dateFormat="E, MMM d"
                   onChange={(date) => {
-                    this.handleDateChange(date);
-                    this.handleDateTimeRangePickerChange();
+                    this.handleDateChange("select-a-day", date);
                   }}
                   name="select-a-day"
                   required={true}

@@ -87,7 +87,7 @@ const Slider = ({ slideIndex, slides }) => {
                   <ButtonSolid modal="modal-apply" text="Apply Today" />
                 </button>
 
-                {content.description}
+                <div className="mb-8">{content.description}</div>
                 <button onClick={closeClickHandler}>
                   <ButtonSolid modal="modal-apply" text="Apply Today" />
                 </button>

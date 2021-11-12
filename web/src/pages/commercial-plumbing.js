@@ -58,9 +58,9 @@ const Page = ({ data }) => {
                   Properly functioning water and sewer systems are crucial in
                   any business. Toilets backing up, low water, pressure, and
                   clogged drains can cause serious problems in larger
-                  facilities. Commercial drains, for example, often a beating
-                  from cleansers, fats, oils, and everything else that ends up
-                  in them.
+                  facilities. Commercial drains, for example, often get a
+                  beating from cleansers, fats, oils, and everything else that
+                  ends up in them.
                 </p>
                 <p>
                   That’s why at Prodigy, we focus heavily on preventative

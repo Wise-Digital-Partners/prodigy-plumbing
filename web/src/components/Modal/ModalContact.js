@@ -4,7 +4,6 @@ import MicroModal from "micromodal";
 import styled from "@emotion/styled";
 import tw from "twin.macro";
 import { Tab, Tabs, TabList, TabPanel } from "react-tabs";
-import "react-tabs/style/react-tabs.css";
 
 import Contact from "../Form/Contact";
 import RequestAppointment from "../Form/RequestAppointment";
@@ -178,11 +177,11 @@ const Modal = ({ modalTabIndex }) => {
                   <TabList>
                     <Tab>
                       <i className="far fa-envelope text-lg mr-2"></i>
-                      General Inquiry
+                      Send a Message
                     </Tab>
                     <Tab>
-                      <i className="far fa-calendar text-lg mr-2"></i> Request
-                      Appointment
+                      <i className="far fa-calendar text-lg mr-2"></i>
+                      Request Appointment
                     </Tab>
                   </TabList>
 

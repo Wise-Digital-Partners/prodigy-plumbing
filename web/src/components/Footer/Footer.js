@@ -235,7 +235,7 @@ const Footer = ({ hideFooter, ctaHeading, ctaText, hideSubtext }) => {
                 <li className="text-xs w-full md:w-auto mt-6 md:mt-0">
                   <a
                     className="text-gray-50 hover:text-primary-500 font-body font-normal flex items-center justify-center md:justify-start space-x-1"
-                    href="https://www.wisedigitalpartners.com/affordable-web-design/"
+                    href="https://www.wisedigitalpartners.com/nest-by-wise/"
                     target="_blank"
                     rel="noopener noreferrer"
                   >

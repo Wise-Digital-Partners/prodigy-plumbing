@@ -31,44 +31,48 @@ const Page = ({ data }) => {
 
             <div className="mb-5">
               <div className="font-bold">Job Type:</div>
-              <p className="mb-0">Full-time</p>
+              <p>Full-time</p>
+
+              <p>
+                We’re searching for a stellar individual to join our bustling
+                plumbing service company. Join one of the fastest-growing
+                plumbing companies where we care about your success!{" "}
+              </p>
+              <p>
+                At Prodigy Plumbing, we promote inner personal growth and a
+                healthy balanced work environment. We work together to get the
+                job done! GUNG HO!
+              </p>
+              <p className="mb-0">
+                We need lead plumbers with top technical skills at a
+                professional plumbing level. You’ll need to demonstrate
+                expertise in the replacement, installation, assembly, and
+                servicing of plumbing and drainage systems in residential and
+                commercial environments. You should also know industry standards
+                and local, state, and federal plumbing codes. Finally, and most
+                importantly, you’ll need to be able to maintain good customer
+                relationships at all times.
+              </p>
             </div>
 
             <div className="mb-5">
-              <div className="font-bold mb-4">Benefits:</div>
-              <ul className="list-disc pl-5 mb-6">
+              <div className="font-bold mb-4">Benefits Package:</div>
+              <ul className="list-disc pl-5">
                 <li>Medical</li>
-                <li>6 Paid Holidays</li>
-                <li>3 Paid Annual Sick Days</li>
-                <li>1 Week Vacation after an annual year of employment</li>
+                <li>6 paid holidays</li>
+                <li>3 paid annual sick days</li>
+                <li>1 week of vacation (after one year of employment)</li>
                 <li>
-                  Fully Stocked Truck – Gas Card and Company Credit Card for
-                  Supplies
+                  Fully stocked vehicle with a gas card and company credit card
+                  for supplies
                 </li>
-                <li>Company Phone</li>
-                <li>Company Apple iPad Tablet</li>
+                <li>Company phone</li>
+                <li>Company Apple iPad tablet</li>
                 <li>Uniforms that are laundered weekly</li>
-                <li>Professionals Sales Training</li>
-                <li>Sales Incentives</li>
-                <li>Latest Technology is Dispatch Systems</li>
+                <li>Professional sales training</li>
+                <li>Sales incentives</li>
+                <li>The latest technology in dispatch systems</li>
               </ul>
-              <p>
-                We are searching for a propelled individual to join our bustling
-                plumbing service company. Join one of the fastest-growing
-                plumbing companies where we care about your success! At Prodigy
-                Plumbing, we promote inner personal growth and a healthy
-                balanced work environment. We work together in getting the job
-                done! GUNG HO!
-              </p>
-              <p className="mb-0">
-                We need lead plumbers with top technical skills at a plumbing
-                professional level related to replacement, installation,
-                assembly, and servicing of plumbing and drainage systems in both
-                residential and commercial environments. Knowledge of industry
-                standards and local, state, and federal plumbing codes to all
-                work performed. Maintain good customer relationships at all
-                times.
-              </p>
             </div>
 
             <div className="mb-5">
@@ -78,58 +82,76 @@ const Page = ({ data }) => {
               <ul className="list-disc pl-5">
                 <li>
                   Submit a detailed description of the solution by properly
-                  diagnosing the customer issue and educating the customer on
-                  their options. Secures proper signatures and contract
-                  information before proceeding with any work.
+                  diagnosing the customer’s issue and educating them on their
+                  options. Secure proper signatures and contract information
+                  before proceeding with any work.
                 </li>
                 <li>
-                  Repair, maintain, install, replace, service, and inspect all
-                  water, sewer, gas, and plumbing systems as applicable.
+                  As applicable, repair, maintain, install, replace, service,
+                  and inspect all water, sewer, gas, and plumbing systems.
                 </li>
                 <li>
-                  Clean drains in residential and commercial buildings by using
+                  Clean drains in residential and commercial buildings using
                   equipment provided but not limited to sewer and drain cleaning
                   machines using cables or rods.
                 </li>
                 <li>
-                  Responds to service calls and troubleshoot plumbing problems
+                  Respond to service calls and troubleshoot plumbing problems
                   for solutions.
                 </li>
                 <li>
-                  Maintain a clean, safe, and organized working environment
+                  Maintain a clean, safe, and organized working environment,
                   including job site, work vehicle, and shop.
                 </li>
                 <li>
                   Comply with all company policies and regulations and safety in
                   the performance of work-related duties.
                 </li>
-                <li>Performs other duties as required or assigned.</li>
+                <li>Perform other duties as required or assigned.</li>
               </ul>
             </div>
 
             <div className="mb-5">
-              <div className="font-bold mb-4">Requirements:</div>
+              <div className="font-bold mb-4">
+                The Experience We’re Looking For:
+              </div>
               <ul className="list-disc pl-5">
-                <li>Valid Driver’s License</li>
-                <li>Pass Drug Screening and Back Ground Check</li>
-                <li>High School Diploma or Equivalent</li>
                 <li>
-                  Physical and Manual Dexterity – this position requires the
-                  ability to use and manipulate tools of the trade. This may
-                  include but is not limited to drain cleaning equipment,
-                  jetters, drills, saws, various hand tools, torch, pipe
-                  cutters, wrenches, etc. Must have the ability to work
-                  skillfully with hands and have an average level of
-                  eye/hand/foot coordination. Must be physically able to
-                  actively work.
+                  3 years (preferred) experience in plumbing service and repair
+                </li>
+                <li>
+                  Demonstrated expertise in replacement, installation, assembly,
+                  and servicing of plumbing and drainage systems in both
+                  residential and commercial environments
+                </li>
+                <li>
+                  Knowledge of industry standards and local, state, and federal
+                  plumbing codes. And most importantly
+                </li>
+                <li>
+                  Ability to foster and maintain great customer relationships at
+                  all times
                 </li>
               </ul>
             </div>
+
             <div className="mb-5">
-              <div className="font-bold">Experience:</div>
-              <p className="mb-0">
-                Plumbing Service and Repair: 3 years (Preferred)
-              </p>
+              <div className="font-bold">Other Requirements:</div>
+              <ul className="list-disc pl-5">
+                <li>Valid driver’s license</li>
+                <li>Pass a drug screening and background check</li>
+                <li>High school diploma or equivalent</li>
+                <li>
+                  Physical and manual dexterity–this position requires the
+                  ability to use and manipulate tools of the trade. This may
+                  include, but is not limited to, drain cleaning equipment,
+                  jetters, drills, saws, various hand tools, torch, pipe
+                  cutters, wrenches, etc. Must have the ability to work
+                  skillfully with hands and have an average level of
+                  eye/hand/foot coordination. Must be physically able to work
+                  actively.
+                </li>
+              </ul>
             </div>
           </>
         ),

@@ -146,8 +146,8 @@ export default class Slider extends Component {
                     </div>
                   </div>
                   <div>
-                    <div className="text-center md:text-left font-heading font-black text-sm text-secondary-800 md:text-white/50 uppercase block w-full bg-gray-50/40 md:bg-transparent border md:border-none border-gray-100 md:pl-14 py-2 md:pb-4 transition-border-transparent md:all duration-300 ease-linear cursor-pointer">
-                      Knowledgable
+                    <div className="text-center md:text-left font-heading font-black text-sm text-secondary-800 md:text-white/50 uppercase block w-full bg-gray-50/40 md:bg-transparent border md:border-none border-transparent md:border-gray-100 md:pl-14 py-2 md:pb-4 rounded md:rounded-none transition-all duration-300 ease-linear cursor-pointer">
+                      Knowledgeable
                     </div>
                   </div>
                 </Slick>
@@ -184,17 +184,11 @@ export default class Slider extends Component {
                             "hidden md:block border-t border-secondary-400 pt-8"
                           }`}
                         >
-                          <q>{testimonial.quote}</q>
+                          <q className="before:hidden">{testimonial.quote}</q>
                           <footer className="mt-8 md:mt-6">
                             <cite className="not-italic flex flex-col md:flex-row md:items-center justify-center md:justify-between">
-                              <div className="flex flex-col md:flex-row items-center space-y-5 md:space-y-0 md:space-x-6 mb-1.5">
-                                <GatsbyImage
-                                  image={testimonial.headshot}
-                                  className="mx-auto md:mx-0"
-                                />
-                                <div className="text-secondary-800 font-heading font-semibold text-sm">
-                                  {testimonial.name}
-                                </div>
+                              <div className="text-secondary-800 font-heading font-semibold text-sm">
+                                {testimonial.name}
                               </div>
                               <GatsbyImage
                                 image={testimonial.platform}
@@ -223,14 +217,8 @@ export default class Slider extends Component {
                           <q>{testimonial.quote}</q>
                           <footer className="mt-8 md:mt-6">
                             <cite className="not-italic flex flex-col md:flex-row md:items-center justify-center md:justify-between">
-                              <div className="flex flex-col md:flex-row items-center space-y-5 md:space-y-0 md:space-x-6 mb-1.5">
-                                <GatsbyImage
-                                  image={testimonial.headshot}
-                                  className="mx-auto md:mx-0"
-                                />
-                                <div className="text-secondary-800 font-heading font-semibold text-sm">
-                                  {testimonial.name}
-                                </div>
+                              <div className="text-secondary-800 font-heading font-semibold text-sm">
+                                {testimonial.name}
                               </div>
                               <GatsbyImage
                                 image={testimonial.platform}
@@ -259,14 +247,8 @@ export default class Slider extends Component {
                           <q>{testimonial.quote}</q>
                           <footer className="mt-8 md:mt-6">
                             <cite className="not-italic flex flex-col md:flex-row md:items-center justify-center md:justify-between">
-                              <div className="flex flex-col md:flex-row items-center space-y-5 md:space-y-0 md:space-x-6 mb-1.5">
-                                <GatsbyImage
-                                  image={testimonial.headshot}
-                                  className="mx-auto md:mx-0"
-                                />
-                                <div className="text-secondary-800 font-heading font-semibold text-sm">
-                                  {testimonial.name}
-                                </div>
+                              <div className="text-secondary-800 font-heading font-semibold text-sm">
+                                {testimonial.name}
                               </div>
                               <GatsbyImage
                                 image={testimonial.platform}
@@ -295,14 +277,8 @@ export default class Slider extends Component {
                           <q>{testimonial.quote}</q>
                           <footer className="mt-8 md:mt-6">
                             <cite className="not-italic flex flex-col md:flex-row md:items-center justify-center md:justify-between">
-                              <div className="flex flex-col md:flex-row items-center space-y-5 md:space-y-0 md:space-x-6 mb-1.5">
-                                <GatsbyImage
-                                  image={testimonial.headshot}
-                                  className="mx-auto md:mx-0"
-                                />
-                                <div className="text-secondary-800 font-heading font-semibold text-sm">
-                                  {testimonial.name}
-                                </div>
+                              <div className="text-secondary-800 font-heading font-semibold text-sm">
+                                {testimonial.name}
                               </div>
                               <GatsbyImage
                                 image={testimonial.platform}
@@ -320,7 +296,7 @@ export default class Slider extends Component {
               <div>
                 {this.props.slides.map((testimonial, i) => {
                   return (
-                    testimonial.category === "Knowledgable" && (
+                    testimonial.category === "Knowledgeable" && (
                       <div key={i}>
                         <blockquote
                           className={`pb-6 ${
@@ -331,14 +307,8 @@ export default class Slider extends Component {
                           <q>{testimonial.quote}</q>
                           <footer className="mt-8 md:mt-6">
                             <cite className="not-italic flex flex-col md:flex-row md:items-center justify-center md:justify-between">
-                              <div className="flex flex-col md:flex-row items-center space-y-5 md:space-y-0 md:space-x-6 mb-1.5">
-                                <GatsbyImage
-                                  image={testimonial.headshot}
-                                  className="mx-auto md:mx-0"
-                                />
-                                <div className="text-secondary-800 font-heading font-semibold text-sm">
-                                  {testimonial.name}
-                                </div>
+                              <div className="text-secondary-800 font-heading font-semibold text-sm">
+                                {testimonial.name}
                               </div>
                               <GatsbyImage
                                 image={testimonial.platform}

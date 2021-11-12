@@ -73,7 +73,9 @@ const ValueProps = ({ className, headingLevel, heading, hideIndex }) => {
                       </span>
                     </div>
                   </div>
-                  <p className="mb-5">{content.text}</p>
+                  <p className="mb-5 text-gray-600 font-normal">
+                    {content.text}
+                  </p>
 
                   <ButtonWithIcon href={content.link} text="Learn More" />
                 </AniLink>

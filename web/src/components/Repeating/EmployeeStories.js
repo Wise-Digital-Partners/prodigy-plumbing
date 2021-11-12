@@ -59,7 +59,7 @@ const EmployeeServices = ({ className, headingLevel }) => {
     <section className={`${className || "mb-20 md:mb-32"}`}>
       <StyledSlider className="relative">
         <header className="md:absolute md:top-8 lg:top-10 xl:top-14 inset-x-0 text-center z-10">
-          <HeadingTag className="md:text-white">Employees Stories</HeadingTag>
+          <HeadingTag className="md:text-white">Employee Stories</HeadingTag>
         </header>
         <Slider>
           {successStories.map((successStory, i) => {
