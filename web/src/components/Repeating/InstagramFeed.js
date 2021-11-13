@@ -3,28 +3,28 @@ import { useStaticQuery, graphql } from "gatsby";
 import { GatsbyImage } from "gatsby-plugin-image";
 
 const InstagramFeed = ({ className, headingLevel }) => {
-  const data = useStaticQuery(graphql`
-    query {
-      instagram: allInstaNode(
-        sort: { fields: timestamp, order: DESC }
-        limit: 4
-      ) {
-        edges {
-          node {
-            id
-            likes
-            comments
-            mediaType
-            localFile {
-              childImageSharp {
-                gatsbyImageData(layout: CONSTRAINED, width: 360)
-              }
-            }
-          }
-        }
-      }
-    }
-  `);
+  // const data = useStaticQuery(graphql`
+  //   query {
+  //     instagram: allInstaNode(
+  //       sort: { fields: timestamp, order: DESC }
+  //       limit: 4
+  //     ) {
+  //       edges {
+  //         node {
+  //           id
+  //           likes
+  //           comments
+  //           mediaType
+  //           localFile {
+  //             childImageSharp {
+  //               gatsbyImageData(layout: CONSTRAINED, width: 360)
+  //             }
+  //           }
+  //         }
+  //       }
+  //     }
+  //   }
+  // `);
 
   const HeadingTag = headingLevel || "h3";
 
@@ -36,7 +36,7 @@ const InstagramFeed = ({ className, headingLevel }) => {
         </header>
 
         <div className="grid grid-cols-2 md:grid-cols-4 gap-2">
-          {data.instagram.edges.map(({ node }) => {
+          {/* {data.instagram.edges.map(({ node }) => {
             const { id, likes, mediaType, comments, localFile } = node;
             return (
               <a
@@ -55,7 +55,7 @@ const InstagramFeed = ({ className, headingLevel }) => {
                 <GatsbyImage
                   className="h-full"
                   image={localFile.childImageSharp.gatsbyImageData}
-                  alt={`Avalon Laser Instagram post ${id}`}
+                  alt={`Instagram post ${id}`}
                 />
                 <div className="absolute flex items-center justify-center z-20 left-0 top-0 right-0 bottom-0 text-white opacity-0 group-hover:opacity-100 transform translate-y-12 group-hover:translate-y-0 transition-all duration-300 ease-linear">
                   <span className="text-xl mx-4">
@@ -68,7 +68,90 @@ const InstagramFeed = ({ className, headingLevel }) => {
                 </div>
               </a>
             );
-          })}
+          })} */}
+          <a
+            className="group relative overflow-hidden cursor-pointer"
+            href="https://www.instagram.com/prodigyplumbinginc/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <div className="bg-black/70 absolute left-0 top-0 right-0 bottom-0 opacity-0 group-hover:opacity-90 z-10 transition-all duration-300 ease-linear"></div>
+            <img
+              className="h-full"
+              src="https://via.placeholder.com/292x292?text=FPO"
+            />
+            <div className="absolute flex items-center justify-center z-20 left-0 top-0 right-0 bottom-0 text-white opacity-0 group-hover:opacity-100 transform translate-y-12 group-hover:translate-y-0 transition-all duration-300 ease-linear">
+              <span className="text-xl mx-4">
+                <i className="fas fa-heart"></i> 50
+              </span>
+              <span className="text-xl mx-4">
+                <i className="fas fa-comment"></i> 10
+              </span>
+            </div>
+          </a>
+
+          <a
+            className="group relative overflow-hidden cursor-pointer"
+            href="https://www.instagram.com/prodigyplumbinginc/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <div className="bg-black/70 absolute left-0 top-0 right-0 bottom-0 opacity-0 group-hover:opacity-90 z-10 transition-all duration-300 ease-linear"></div>
+            <img
+              className="h-full"
+              src="https://via.placeholder.com/292x292?text=FPO"
+            />
+            <div className="absolute flex items-center justify-center z-20 left-0 top-0 right-0 bottom-0 text-white opacity-0 group-hover:opacity-100 transform translate-y-12 group-hover:translate-y-0 transition-all duration-300 ease-linear">
+              <span className="text-xl mx-4">
+                <i className="fas fa-heart"></i> 50
+              </span>
+              <span className="text-xl mx-4">
+                <i className="fas fa-comment"></i> 10
+              </span>
+            </div>
+          </a>
+
+          <a
+            className="group relative overflow-hidden cursor-pointer"
+            href="https://www.instagram.com/prodigyplumbinginc/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <div className="bg-black/70 absolute left-0 top-0 right-0 bottom-0 opacity-0 group-hover:opacity-90 z-10 transition-all duration-300 ease-linear"></div>
+            <img
+              className="h-full"
+              src="https://via.placeholder.com/292x292?text=FPO"
+            />
+            <div className="absolute flex items-center justify-center z-20 left-0 top-0 right-0 bottom-0 text-white opacity-0 group-hover:opacity-100 transform translate-y-12 group-hover:translate-y-0 transition-all duration-300 ease-linear">
+              <span className="text-xl mx-4">
+                <i className="fas fa-heart"></i> 50
+              </span>
+              <span className="text-xl mx-4">
+                <i className="fas fa-comment"></i> 10
+              </span>
+            </div>
+          </a>
+
+          <a
+            className="group relative overflow-hidden cursor-pointer"
+            href="https://www.instagram.com/prodigyplumbinginc/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <div className="bg-black/70 absolute left-0 top-0 right-0 bottom-0 opacity-0 group-hover:opacity-90 z-10 transition-all duration-300 ease-linear"></div>
+            <img
+              className="h-full"
+              src="https://via.placeholder.com/292x292?text=FPO"
+            />
+            <div className="absolute flex items-center justify-center z-20 left-0 top-0 right-0 bottom-0 text-white opacity-0 group-hover:opacity-100 transform translate-y-12 group-hover:translate-y-0 transition-all duration-300 ease-linear">
+              <span className="text-xl mx-4">
+                <i className="fas fa-heart"></i> 50
+              </span>
+              <span className="text-xl mx-4">
+                <i className="fas fa-comment"></i> 10
+              </span>
+            </div>
+          </a>
         </div>
       </div>
     </section>

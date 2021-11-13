@@ -139,14 +139,14 @@ module.exports = {
         icon: `static/images/favicon.png`,
       },
     },
-    {
-      resolve: `gatsby-source-instagram`,
-      options: {
-        username: `466692116686156`,
-        access_token: `EAAOlUYciOnEBAOnHexZBcSXT0A4rt2T86ZBrUBuM3r4SHZB0Y1ElYhrqInz0ku8T2UITy7ryTgrOZC6IhtVkJTkaDcvZC4CmwQsY6puslptANGgrPe1YmFWZB9JhC21YwM82fRh2zqJt4DY5SIqZCBaGJ9BxP2s7ZAGdBPvZCR40KTs1MwE7CcaIZCvSCMyN8yN0AZD`,
-        instagram_id: `17841402300827155`,
-      },
-    },
+    // {
+    //   resolve: `gatsby-source-instagram`,
+    //   options: {
+    //     username: `466692116686156`,
+    //     access_token: `EAAOlUYciOnEBAOnHexZBcSXT0A4rt2T86ZBrUBuM3r4SHZB0Y1ElYhrqInz0ku8T2UITy7ryTgrOZC6IhtVkJTkaDcvZC4CmwQsY6puslptANGgrPe1YmFWZB9JhC21YwM82fRh2zqJt4DY5SIqZCBaGJ9BxP2s7ZAGdBPvZCR40KTs1MwE7CcaIZCvSCMyN8yN0AZD`,
+    //     instagram_id: `17841402300827155`,
+    //   },
+    // },
     // {
     //   resolve: "gatsby-plugin-google-tagmanager",
     //   options: {
