@@ -40,6 +40,12 @@ const StyledTabs = styled.div`
   .react-tabs__tab {
     ${tw`text-sm text-black/40 font-semibold py-2.5 px-4 bg-gray-50 rounded flex items-center justify-center w-full border-none cursor-pointer transition-colors duration-300 ease-linear`}
   }
+  .react-tabs__tab-panel {
+    ${tw`hidden`}
+  }
+  .react-tabs__tab-panel--selected {
+    ${tw`block`}
+  }
   .react-tabs__tab--selected {
     ${tw`text-white text-opacity-100 bg-primary-500 rounded`}
     svg path {
@@ -172,6 +178,7 @@ const Modal = ({ modalTabIndex }) => {
               <StyledTabs>
                 <Tabs
                   selectedIndex={tabIndex}
+                  forceRenderTabPanel={true}
                   onSelect={(index) => setTabIndex(index)}
                 >
                   <TabList>
