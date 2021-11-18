@@ -38,7 +38,7 @@ const StyledTabs = styled.div`
     ${tw`grid grid-cols-2 gap-2 mb-6 md:mb-10 border-none`}
   }
   .react-tabs__tab {
-    ${tw`text-sm text-black/40 font-semibold py-2.5 px-4 bg-gray-50 rounded flex items-center justify-center w-full border-none transition-colors duration-300 ease-linear`}
+    ${tw`text-sm text-black/40 font-semibold py-2.5 px-4 bg-gray-50 rounded flex items-center justify-center w-full border-none cursor-pointer transition-colors duration-300 ease-linear`}
   }
   .react-tabs__tab--selected {
     ${tw`text-white text-opacity-100 bg-primary-500 rounded`}

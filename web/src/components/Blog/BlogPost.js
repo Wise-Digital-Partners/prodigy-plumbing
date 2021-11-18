@@ -80,6 +80,7 @@ function BlogPost(props) {
             <GatsbyImage
               image={props.mainImage.asset.gatsbyImageData}
               alt={props.mainImage.alt}
+              className="w-full"
             />
           </div>
         )}

@@ -13,7 +13,7 @@ function BlogPostPreview(props) {
       to={getBlogUrl(props.publishedAt, props.slug.current)}
       className="no-underline"
     >
-      <div className="group bg-secondary-50 rounded-xl pt-4 px-4 pb-12">
+      <div className="group bg-secondary-50 rounded-xl pt-4 px-4 pb-12 h-full">
         <div className="overflow-hidden rounded-md mb-3.5">
           {props.mainImage && props.mainImage.asset && (
             <GatsbyImage
