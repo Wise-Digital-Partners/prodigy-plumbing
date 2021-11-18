@@ -112,12 +112,12 @@ const Page = ({ data }) => {
 export const query = graphql`
   {
     openGraphImage: file(
-      relativePath: { eq: "open-graph/facebook/Global.jpg" }
+      relativePath: { eq: "open-graph/facebook/Commercial.jpg" }
     ) {
       publicURL
     }
     twitterOpenGraphImage: file(
-      relativePath: { eq: "open-graph/twitter/Global.jpg" }
+      relativePath: { eq: "open-graph/twitter/Commercial.jpg" }
     ) {
       publicURL
     }

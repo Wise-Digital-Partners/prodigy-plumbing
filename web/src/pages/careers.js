@@ -21,7 +21,7 @@ const Page = ({ data }) => {
           <>
             <div className="mb-5">
               <div className="font-bold">Location:</div>
-              <p className="mb-0">Cerritos, CA</p>
+              <p className="mb-0">Long Beach, CA</p>
             </div>
 
             <div className="mb-5">
@@ -288,12 +288,12 @@ const Page = ({ data }) => {
 export const query = graphql`
   {
     openGraphImage: file(
-      relativePath: { eq: "open-graph/facebook/Homepage.jpg" }
+      relativePath: { eq: "open-graph/facebook/Homepage-Reviews.jpg" }
     ) {
       publicURL
     }
     twitterOpenGraphImage: file(
-      relativePath: { eq: "open-graph/twitter/Homepage.jpg" }
+      relativePath: { eq: "open-graph/twitter/Homepage-Reviews.jpg" }
     ) {
       publicURL
     }
