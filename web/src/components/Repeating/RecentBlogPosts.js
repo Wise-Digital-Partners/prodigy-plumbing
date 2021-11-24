@@ -2,7 +2,11 @@ import React from "react";
 import { useStaticQuery, graphql } from "gatsby";
 import BlogPostPreview from "../Blog/BlogPostPreview";
 import GraphQLErrorList from "../Blog/graphql-error-list";
-import { mapEdgesToNodes } from "../../lib/helpers";
+import {
+  filterOutDocsPublishedInTheFuture,
+  filterOutDocsWithoutSlugs,
+  mapEdgesToNodes,
+} from "../../lib/helpers";
 
 const RecentBlogPosts = ({ props, heading, className }) => {
   const data = useStaticQuery(graphql`
@@ -41,7 +45,11 @@ const RecentBlogPosts = ({ props, heading, className }) => {
     return <GraphQLErrorList errors={errors} />;
   }
 
-  const postNodes = data && data.posts && mapEdgesToNodes(data.posts);
+  const postNodes = (data || {}).posts
+    ? mapEdgesToNodes(data.posts)
+        .filter(filterOutDocsWithoutSlugs)
+        .filter(filterOutDocsPublishedInTheFuture)
+    : [];
 
   return (
     <section className={` ${className || "mb-16 md:mb-20"}`}>

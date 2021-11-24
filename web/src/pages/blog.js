@@ -5,7 +5,11 @@ import Layout from "../components/Layout";
 import SearchEngineOptimization from "../components/SEO";
 import BlogPostPreview from "../components/Blog/BlogPostGrid";
 import GraphQLErrorList from "../components/Blog/graphql-error-list";
-import { mapEdgesToNodes } from "../lib/helpers";
+import {
+  filterOutDocsPublishedInTheFuture,
+  filterOutDocsWithoutSlugs,
+  mapEdgesToNodes,
+} from "../lib/helpers";
 
 export const query = graphql`
   {
@@ -58,7 +62,11 @@ const ArchivePage = (props) => {
     );
   }
 
-  const postNodes = data && data.posts && mapEdgesToNodes(data.posts);
+  const postNodes = (data || {}).posts
+    ? mapEdgesToNodes(data.posts)
+        .filter(filterOutDocsWithoutSlugs)
+        .filter(filterOutDocsPublishedInTheFuture)
+    : [];
 
   return (
     <Layout headerHasBorder={true}>
