@@ -45,8 +45,30 @@ const Page = ({ data }) => {
                 <p className="md:text-xl">
                   Are you struggling to stay cool or warm? Prodigy’s skilled
                   technicians are well-versed in both residential and commercial
-                  HVAC systems.
+                  HVAC systems. We aim to answer the following questions and any
+                  others you have:
                 </p>
+
+                <ul className="list-arrows">
+                  <li>How is the system performing overall? </li>
+                  <li>
+                    Are there temperature fluctuations in different areas of the
+                    house?
+                  </li>
+                  <li>How old is the unit? </li>
+                  <li>Is it or any of its parts under warranty? </li>
+                  <li>
+                    Was the system installed properly, and has it been properly
+                    maintained?
+                  </li>
+                  <li>What does the air quality look like in the home? </li>
+                  <li>
+                    How are the air delivery systems (ductwork and vents)
+                    operating?
+                  </li>
+                  <li>How much would it cost to change the equipment? </li>
+                  <li>How energy efficient is the system?</li>
+                </ul>
               </div>
 
               <div className="mb-14 md:mb-20">
