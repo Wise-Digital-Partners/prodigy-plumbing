@@ -41,11 +41,18 @@ export default {
                 title: "URL",
                 name: "href",
                 type: "url",
+                validation: (Rule) =>
+                  Rule.uri({
+                    scheme: ["http", "https", "mailto", "tel"],
+                  }),
               },
             ],
           },
         ],
       },
+    },
+    {
+      type: "youtube",
     },
     // You can add additional types here. Note that you can't use
     // primitive types such as 'string' and 'number' in the same array
