@@ -189,10 +189,10 @@ const Footer = ({ hideFooter, ctaHeading, ctaText, hideSubtext }) => {
                   <ul className="flex flex-col space-y-4">
                     <li>
                       <a
-                        href="tel:952-944-9000"
+                        href="tel:562-413-1928"
                         className="text-sm text-white hover:text-primary-500 font-normal font-body"
                       >
-                        (952) 944-9000
+                        (562) 413-1928
                       </a>
                     </li>
                     <li className="text-sm text-white">
