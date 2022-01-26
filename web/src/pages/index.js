@@ -82,10 +82,10 @@ const Page = ({ data }) => {
             onClick={() => setModalTabIndex(1)}
           />
           <ButtonGhost
-            href="tel:562-413-1928"
+            href="tel:562-383-0098"
             text={[
               <i className="fas fa-phone text-primary-500 group-hover:text-white mr-2.5 transition-colors duration-300 ease-linear"></i>,
-              "562-413-1928",
+              "562-383-0098",
             ]}
           />
         </div>
