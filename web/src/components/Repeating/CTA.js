@@ -32,7 +32,7 @@ const CTA = ({ ctaHeading, headingLevel, ctaText, hideSubtext, className }) => {
             )}
           </div>
 
-          <div className="flex space-x-4">
+          <div className="md:flex space-y-4 md:space-y-0 md:space-x-4">
             <ButtonGhost
               href="tel:562-383-0098"
               text={[

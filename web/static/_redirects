@@ -1,3 +1,5 @@
+https://prodigy-plumbing.netlify.app/* https://prodigyplumbers.com/:splat 301!
+
 /cerritos-plumbing-services/ /
 /clients-one/ /reviews/
 /contact-us/ /
@@ -8,8 +10,17 @@
 /drain-cleaning-repairs/ /drain-sewer-repair-services/
 /galvanized-pipe-replacement/ /galvanized-pipe-replacement/
 /hydro-jetting/ /hydro-jetting-services/
-/plumbing-services/ /plumbing-services/
 /sewer-camera-services/ /sewer-camera-inspection-services/
 /tree-root-intrusion/ /tree-root-intrusion/
 /trenchless-sewer/ /trenchless-sewer-repair-replacement/
 /water-heater-repairs/ /water-heater-repair-installation/
+
+/services/trenchless-sewer/  /trenchless-sewer-repair-replacement/
+/services/galvanized-pipe-replacement/ /galvanized-pipe-replacement/
+/services/plumbing-services/  /plumbing-services/
+/services/tree-root-intrusion/  /tree-root-intrusion/
+/services/  /
+/services/drain-cleaning-repairs/  /drain-cleaning-repair-services/
+/services/water-heater-repairs/  /water-heater-repair-installation/
+/services/sewer-camera-services/  /sewer-camera-inspection-services/
+/services/hydro-jetting/  /hydro-jetting-services/

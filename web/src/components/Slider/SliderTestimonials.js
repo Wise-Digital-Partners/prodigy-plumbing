@@ -98,6 +98,15 @@ export default class Slider extends Component {
             centerPadding: "150px",
           },
         },
+        {
+          breakpoint: 480,
+          settings: {
+            dots: true,
+            swipeToSlide: true,
+            centerMode: true,
+            centerPadding: "75px",
+          },
+        },
       ],
     };
 
