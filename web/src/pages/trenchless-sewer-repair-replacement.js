@@ -130,10 +130,10 @@ const Page = ({ data }) => {
                   specialists are standing by.
                 </p>
                 <ButtonSolid
-                  href="tel:562-383-0098"
+                  href="tel:562-413-1928"
                   text={[
                     <i className="fas fa-phone mr-2.5"></i>,
-                    "562-383-0098",
+                    "562-413-1928",
                   ]}
                   className="w-full"
                 />

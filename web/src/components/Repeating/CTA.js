@@ -34,10 +34,10 @@ const CTA = ({ ctaHeading, headingLevel, ctaText, hideSubtext, className }) => {
 
           <div className="md:flex space-y-4 md:space-y-0 md:space-x-4">
             <ButtonGhost
-              href="tel:562-383-0098"
+              href="tel:562-413-1928"
               text={[
                 <i className="fas fa-phone text-primary-500 group-hover:text-white mr-2.5 transition-colors duration-300 ease-linear"></i>,
-                "562-383-0098",
+                "562-413-1928",
               ]}
               altStyle={true}
               className="w-full md:w-auto"

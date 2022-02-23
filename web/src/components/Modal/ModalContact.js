@@ -138,11 +138,11 @@ const Modal = ({ modalTabIndex }) => {
             <div className="group flex justify-between items-center pt-12 pb-4 md:py-4 px-5 border-b border-gray-200 min-h[48px]">
               <div className={`flex space-x-6 md:space-x-8 ${setPhoneNumbers}`}>
                 <a
-                  href="tel:562-383-0098"
+                  href="tel:562-413-1928"
                   className="font-heading font-semibold text-primary-500"
                 >
                   <i className="fas fa-phone-alt mr-1.5"></i>
-                  <span>562-383-0098</span>
+                  <span>562-413-1928</span>
                 </a>
               </div>
 

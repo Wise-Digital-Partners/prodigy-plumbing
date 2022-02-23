@@ -160,7 +160,7 @@ const MainNav = ({
     >
       <div className="container flex justify-between items-center">
         <div className="flex flex-auto lg:hidden">
-          <a href="tel:562-383-0098">
+          <a href="tel:562-413-1928">
             <i className="fas fa-phone text-lg text-secondary-800"></i>
           </a>
         </div>
@@ -486,7 +486,7 @@ const MainNav = ({
         <div className="flex items-center justify-end">
           <div className="hidden lg:inline-flex lg:items-center lg:space-x-6">
             <a
-              href="tel:562-383-0098"
+              href="tel:562-413-1928"
               className="font-heading font-black text-secondary-800 text-sm"
             >
               <i className="fas fa-phone text-primary-500 mr-1.5"></i>
