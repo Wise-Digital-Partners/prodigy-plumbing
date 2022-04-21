@@ -9,7 +9,7 @@ const isProd = process.env.NODE_ENV === "production";
 
 const {
   NODE_ENV,
-  URL: NETLIFY_SITE_URL = "https://prodigy-plumbing.netlify.app/",
+  URL: NETLIFY_SITE_URL = "https://prodigyplumbers.com",
   DEPLOY_PRIME_URL: NETLIFY_DEPLOY_URL = NETLIFY_SITE_URL,
   CONTEXT: NETLIFY_ENV = NODE_ENV,
 } = process.env;
@@ -34,17 +34,9 @@ module.exports = {
       resolve: `gatsby-plugin-sharp`,
       options: {
         defaults: {
-          // formats: [`auto`, `webp`],
           placeholder: `dominantColor`,
           quality: 100,
           breakpoints: [768, 960, 1024, 1920],
-          // backgroundColor: `transparent`,
-          // tracedSVGOptions: {},
-          // blurredOptions: {},
-          // jpgOptions: {},
-          // pngOptions: {},
-          // webpOptions: {},
-          // avifOptions: {},
         },
       },
     },
@@ -139,23 +131,11 @@ module.exports = {
         icon: `static/images/favicon.png`,
       },
     },
-    // {
-    //   resolve: `gatsby-source-instagram`,
-    //   options: {
-    //     username: `466692116686156`,
-    //     access_token: `EAAOlUYciOnEBAOnHexZBcSXT0A4rt2T86ZBrUBuM3r4SHZB0Y1ElYhrqInz0ku8T2UITy7ryTgrOZC6IhtVkJTkaDcvZC4CmwQsY6puslptANGgrPe1YmFWZB9JhC21YwM82fRh2zqJt4DY5SIqZCBaGJ9BxP2s7ZAGdBPvZCR40KTs1MwE7CcaIZCvSCMyN8yN0AZD`,
-    //     instagram_id: `17841402300827155`,
-    //   },
-    // },
     {
       resolve: "gatsby-plugin-google-tagmanager",
       options: {
         id: "GTM-NH4T3KW",
-        includeInDevelopment: true,
-        // defaultDataLayer: { platform: "gatsby" },
-        // gtmAuth: "YOUR_GOOGLE_TAGMANAGER_ENVIRONMENT_AUTH_STRING",
-        // gtmPreview: "YOUR_GOOGLE_TAGMANAGER_ENVIRONMENT_PREVIEW_NAME",
-        // dataLayerName: "YOUR_DATA_LAYER_NAME",
+        includeInDevelopment: false,
       },
     },
   ],
