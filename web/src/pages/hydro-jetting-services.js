@@ -13,11 +13,11 @@ const Page = ({ data }) => {
   return (
     <Layout
       ctaHeading="The #1 Choice"
-      ctaText="Prodigy is here for you when you need expert hydro jetting services in Cerritos or Long Beach. Get a free estimate today."
+      ctaText="Prodigy is here for you when you need expert hydro jetting services in Long Beach or Los Angeles County. Get a free estimate today."
     >
       <SearchEngineOptimization
-        title="Hydro Jetting Services in Cerritos & Long Beach | Prodigy"
-        description="Call Prodigy to blast out those big pipe blockages. We're your #1 rated plumbing experts, and we specialize in hydro jetting services in Cerritos and Long Beach."
+        title="Hydro Jetting Services in Long Beach & LA County | Prodigy"
+        description="Call Prodigy to blast out those big pipe blockages. We're your #1 rated plumbing experts, and we specialize in hydro jetting services in Long Beach & LA County."
         // openGraphImage={data.openGraphImage.publicURL}
         // twitterOpenGraphImage={data.twitterOpenGraphImage.publicURL}
       />
@@ -33,7 +33,7 @@ const Page = ({ data }) => {
       >
         <div className="md:bg-secondary-800/80 md:rounded-3xl md:px-14 md:py-18 md:max-w-[570px]">
           <h1 className="md:text-white mb-0">
-            Hydro Jetting Services In Cerritos & Long Beach
+            Hydro Jetting Services In Long Beach & Los Angeles County
           </h1>
         </div>
       </Hero>

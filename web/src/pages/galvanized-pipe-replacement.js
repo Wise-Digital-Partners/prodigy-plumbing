@@ -16,8 +16,8 @@ const Page = ({ data }) => {
       ctaText="Prodigy can inspect your old galvanized pipes and let you know if it’s time to replace them. Get a free estimate today."
     >
       <SearchEngineOptimization
-        title="Galvanized Pipe Replacement in Cerritos & Long Beach"
-        description="Do you own an older home in Cerritos or Long Beach—pre-1980s?. If so, it may be time for galvanized pipe replacement. Call us today for a free estimate."
+        title="Galvanized Pipe Replacement in Long Beach & LA County"
+        description="Do you own an older home in Long Beach & LA County—pre-1980s?. If so, it may be time for galvanized pipe replacement. Call us today for a free estimate."
         // openGraphImage={data.openGraphImage.publicURL}
         // twitterOpenGraphImage={data.twitterOpenGraphImage.publicURL}
       />
@@ -43,8 +43,8 @@ const Page = ({ data }) => {
               <div className="mb-14 md:mb-20">
                 <h2>Out With The Old</h2>
                 <p>
-                  Was your home in Cerritos or Long Beach built before the
-                  1980s? If so, you likely have galvanized steel piping.
+                  Was your home in Long Beach or Los Angeles County built before
+                  the 1980s? If so, you likely have galvanized steel piping.
                   Although the pipes are dipped in molten zinc to help prevent
                   rust, they can corrode over time. As a result, you can end up
                   with leaks or a build-up that restricts water flow and can
@@ -90,8 +90,8 @@ const Page = ({ data }) => {
                 </h3>
                 <p>
                   Prodigy’s specialists will evaluate your old pipes in your
-                  Cerritos or Long Beach home and go over your options if they
-                  need to be replaced.
+                  Long Beach or Los Angeles County home and go over your options
+                  if they need to be replaced.
                 </p>
                 <ButtonSolid
                   href="tel:562-413-1928"

@@ -17,8 +17,8 @@ const Page = ({ data }) => {
       ctaText="New to Prodigy? Our team would love to meet you and help you with your plumbing and HVAC needs. Give us a call today."
     >
       <SearchEngineOptimization
-        title="About Prodigy Plumbing | Cerritos & Long Beach"
-        description="At Prodigy, we love what we do, and we believe in it. It’s not just plumbing to us—it’s honest, hard work that services our Cerritos and Long Beach communities."
+        title="About Prodigy Plumbing | Long Beach & LA County"
+        description="At Prodigy, we love what we do, and we believe in it. It’s not just plumbing to us—it’s honest, hard work that services our Long Beach & LA County communities."
         // openGraphImage={data.openGraphImage.publicURL}
         // twitterOpenGraphImage={data.twitterOpenGraphImage.publicURL}
       />
@@ -30,8 +30,8 @@ const Page = ({ data }) => {
               <h1>Meet The Prodigy Crew</h1>
               <p>
                 We love what we do, and we believe in it. It’s not just plumbing
-                to us—it’s honest, hard work that services our Cerritos and Long
-                Beach communities.
+                to us—it’s honest, hard work that services our Long Beach and
+                Los Angeles County communities.
               </p>
               <ButtonSolid modal="modal-contact" text="Schedule Service" />
             </div>
@@ -105,8 +105,8 @@ const Page = ({ data }) => {
               <p>
                 At Prodigy, we believe in the power of positive thinking, the
                 importance of personal development, and our core principle of
-                honesty. If you’re a plumbing/HVAC specialist in Cerritos or
-                Long Beach and would love to join our team, let us know!
+                honesty. If you’re a plumbing/HVAC specialist in Long Beach or
+                Los Angeles County and would love to join our team, let us know!
               </p>
               <ButtonWithIcon href="/careers/" text="Learn More" />
             </div>

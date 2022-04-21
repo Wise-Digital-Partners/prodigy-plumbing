@@ -41,7 +41,7 @@ const ValueProps = ({ className, headingLevel, heading, hideIndex }) => {
       image: data.hvac.childImageSharp.gatsbyImageData,
       heading: "Your Cooling & Heating",
       text: "Are your heating or air conditioning units on the fritz? Do they need upkeep? We’re also experts in HVAC.",
-      link: "/hvac-cerritos-long-beach/",
+      link: "/hvac-long-beach-la/",
     },
     {
       image: data.plumbing.childImageSharp.gatsbyImageData,

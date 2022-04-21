@@ -13,11 +13,11 @@ const Page = ({ data }) => {
   return (
     <Layout
       ctaHeading="The #1 Choice"
-      ctaText="Prodigy is here for you when you need an HVAC specialist in Cerritos and Long Beach. Give us a call or book an appointment today."
+      ctaText="Prodigy is here for you when you need an HVAC specialist in Long Beach and Los Angeles County. Give us a call or book an appointment today."
     >
       <SearchEngineOptimization
-        title="HVAC Services in Cerritos & Long Beach | Prodigy"
-        description="Struggling to stay cool or warm? Can't keep comfortable? Make Prodigy your first call for HVAC in Cerritos and Long Beach. Book an appointment today!"
+        title="HVAC Services in Long Beach & LA County | Prodigy"
+        description="Struggling to stay cool or warm? Can't keep comfortable? Make Prodigy your first call for HVAC in Long Beach & LA County. Book an appointment today!"
         // openGraphImage={data.openGraphImage.publicURL}
         // twitterOpenGraphImage={data.twitterOpenGraphImage.publicURL}
       />
@@ -33,7 +33,7 @@ const Page = ({ data }) => {
         padding="md:py-20"
       >
         <div className="md:bg-secondary-50/80 md:rounded-3xl md:px-14 md:py-18 md:max-w-[570px]">
-          <h1 className="mb-0">HVAC In Cerritos & Long Beach</h1>
+          <h1 className="mb-0">HVAC In Long Beach & Los Angeles County</h1>
         </div>
       </Hero>
 
@@ -106,7 +106,7 @@ const Page = ({ data }) => {
                 </h3>
                 <p>
                   Prodigy is your top choice for HVAC service and maintenance in
-                  Cerritos and Long Beach.
+                  Long Beach and Los Angeles County.
                 </p>
                 <ButtonSolid
                   href="tel:562-413-1928"

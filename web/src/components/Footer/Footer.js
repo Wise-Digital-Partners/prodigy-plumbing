@@ -63,7 +63,7 @@ const Footer = ({ hideFooter, ctaHeading, ctaText, hideSubtext }) => {
       },
       {
         name: "HVAC",
-        href: "/hvac-cerritos-long-beach/",
+        href: "/hvac-long-beach-la/",
       },
     ],
   };

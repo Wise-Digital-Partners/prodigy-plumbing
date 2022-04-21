@@ -13,11 +13,11 @@ const Page = ({ data }) => {
   return (
     <Layout
       ctaHeading="The #1 Choice"
-      ctaText="Prodigy is here for you when you need expert drain cleaning and repair service in Cerritos and Long Beach. Get a free estimate today."
+      ctaText="Prodigy is here for you when you need expert drain cleaning and repair service in Long Beach and Los Angeles County. Get a free estimate today."
     >
       <SearchEngineOptimization
-        title="Drain Cleaning & Repair Services in Cerritos & Long Beach"
-        description="Make Prodigy your first call for top-rated drain cleaning and repair services in Cerritos and Long Beach. Book an appointment today!"
+        title="Drain Cleaning & Repair Services in Long Beach & LA County"
+        description="Make Prodigy your first call for top-rated drain cleaning and repair services in Long Beach & LA County. Book an appointment today!"
         // openGraphImage={data.openGraphImage.publicURL}
         // twitterOpenGraphImage={data.twitterOpenGraphImage.publicURL}
       />
@@ -47,10 +47,10 @@ const Page = ({ data }) => {
                 <h2>On-Site Estimates. Competitive Pricing.</h2>
                 <p>
                   Make Prodigy your first call for drain cleaning and repair
-                  services in Cerritos and Long Beach. When we arrive, you can
-                  expect a plumber that’s polite, experienced, and trustworthy.
-                  Plus, you’ll get a fast on-site estimate at a competitive
-                  price.
+                  services in Long Beach and Los Angeles County. When we arrive,
+                  you can expect a plumber that’s polite, experienced, and
+                  trustworthy. Plus, you’ll get a fast on-site estimate at a
+                  competitive price.
                 </p>
               </div>
 
@@ -77,7 +77,7 @@ const Page = ({ data }) => {
                 <h3 className="heading-four normal-case">Call The Experts</h3>
                 <p>
                   Call us today to schedule an appointment at your home or
-                  business in Cerritos or Long Beach.
+                  business in Long Beach or Los Angeles County.
                 </p>
                 <ButtonSolid
                   href="tel:562-413-1928"

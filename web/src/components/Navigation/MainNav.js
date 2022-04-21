@@ -284,7 +284,7 @@ const MainNav = ({
             <li className="group">
               <AniLink
                 fade
-                to="/hvac-cerritos-long-beach/"
+                to="/hvac-long-beach-la/"
                 className={`font-heading relative text-sm font-black uppercase tracking-wide pb-8 hover:text-primary-500 ${
                   scrolled && "text-secondary-800"
                 } ${
@@ -420,7 +420,7 @@ const MainNav = ({
                     <li>
                       <AniLink
                         fade
-                        to="/hvac-cerritos-long-beach/"
+                        to="/hvac-long-beach-la/"
                         onKeyDown={clickHandler}
                         onClick={clickHandler}
                         className="font-heading text-xl text-secondary-800 hover:text-primary-500 font-black"

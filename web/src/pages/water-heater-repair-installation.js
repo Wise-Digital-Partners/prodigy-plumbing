@@ -16,8 +16,8 @@ const Page = ({ data }) => {
       ctaText="Prodigy is here for you when you need a water heater fixed or have a new one to be installed. Get a free estimate today."
     >
       <SearchEngineOptimization
-        title="Water Heater Repair & Installation | Cerritos & Long Beach"
-        description="Need your water heater fixed? Need one installed? Call Prodigy, your top-rated water heater repair and installation specialists in Cerritos and Long Beach."
+        title="Water Heater Repair & Installation | Long Beach & LA County"
+        description="Need your water heater fixed? Need one installed? Call Prodigy, your top-rated water heater repair and installation specialists in Long Beach & LA County."
         // openGraphImage={data.openGraphImage.publicURL}
         // twitterOpenGraphImage={data.twitterOpenGraphImage.publicURL}
       />
@@ -46,8 +46,8 @@ const Page = ({ data }) => {
                 <h2>We Know Water Heaters</h2>
                 <p>
                   No job is too small for Prodigy’s skilled technicians serving
-                  Cerritos and Long Beach. We repair and install all brands of
-                  residential and commercial water heaters.
+                  Long Beach and Los Angeles County. We repair and install all
+                  brands of residential and commercial water heaters.
                 </p>
               </div>
 
@@ -73,8 +73,9 @@ const Page = ({ data }) => {
                   Call The Water Heater Experts
                 </h3>
                 <p>
-                  Get fast, professional service in Cerritos and Long Beach from
-                  Prodigy’s water heater repair and installation specialists.
+                  Get fast, professional service in Long Beach and Los Angeles
+                  County from Prodigy’s water heater repair and installation
+                  specialists.
                 </p>
                 <ButtonSolid
                   href="tel:562-413-1928"

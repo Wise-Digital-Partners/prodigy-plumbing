@@ -44,15 +44,15 @@ const Page = ({ data }) => {
       image: data.hvac.childImageSharp.gatsbyImageData,
       heading: "Heating & Air Conditioning",
       text: "Enjoy year-round comfort from your HVAC systems. Get quality installation, skilled maintenance, and reliable repairs.",
-      link: "/hvac-cerritos-long-beach/",
+      link: "/hvac-long-beach-la/",
     },
   ];
 
   return (
     <Layout modalTabIndex={modalTabIndex}>
       <SearchEngineOptimization
-        title="Best Plumber in Cerritos & Long Beach | Prodigy Plumbing"
-        description="Big or small, we fix it all. From plumbing to drains, sewers, and HVAC, call Prodigy, the #1 rated plumber in Cerritos and Long Beach."
+        title="Best Plumber in Long Beach & LA County | Prodigy Plumbing"
+        description="Big or small, we fix it all. From plumbing to drains, sewers, and HVAC, call Prodigy Plumbing, the #1 rated plumber in Long Beach and Los Angeles County. "
         // openGraphImage={data.openGraphImage.publicURL}
         // twitterOpenGraphImage={data.twitterOpenGraphImage.publicURL}
       />
@@ -100,7 +100,7 @@ const Page = ({ data }) => {
               <GatsbyImage image={data.intro.childImageSharp.gatsbyImageData} />
             </div>
             <div>
-              <h1>The Best Plumber In Cerritos & Long Beach</h1>
+              <h1>Top Rated Plumber In Long Beach & Los Angeles County</h1>
               <p className="text-secondary-400">
                 Big or small, we fix it all. From plumbing to drains, sewers,
                 and HVAC, choose Prodigy, the #1 rated company in town and the

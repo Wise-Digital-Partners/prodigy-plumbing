@@ -165,8 +165,8 @@ const Page = ({ data }) => {
       hideSubtext={true}
     >
       <SearchEngineOptimization
-        title="Plumbing Careers in Cerritos & Long Beach | Prodigy"
-        description="Want to work for the #1 rated plumber in Cerritos and Long Beach? If you’re a positive, dedicated team player, Prodigy Plumbers wants to hear from you."
+        title="Plumbing Careers in Long Beach & LA County | Prodigy"
+        description="Want to work for the #1 rated plumber in Long Beach & LA County? If you’re a positive, dedicated team player, Prodigy Plumbers wants to hear from you."
         // openGraphImage={data.openGraphImage.publicURL}
         // twitterOpenGraphImage={data.twitterOpenGraphImage.publicURL}
       />
@@ -177,9 +177,9 @@ const Page = ({ data }) => {
             <div className="order-2 md:order-1">
               <h1>Join The Prodigy Crew</h1>
               <p>
-                Want to work for the #1 rated plumber in Cerritos and Long
-                Beach? If you’re a positive, dedicated team player, we want to
-                hear from you.
+                Want to work for the #1 rated plumber in Long Beach and Los
+                Angeles County? If you’re a positive, dedicated team player, we
+                want to hear from you.
               </p>
               <ButtonWithIcon
                 href="#open-positions"

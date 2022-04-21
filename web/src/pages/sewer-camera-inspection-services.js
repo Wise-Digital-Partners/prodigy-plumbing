@@ -16,8 +16,8 @@ const Page = ({ data }) => {
       ctaText="When you want to see inside the lines, your Prodigy experts can help. Get a free estimate today."
     >
       <SearchEngineOptimization
-        title="Sewer Camera Inspection Services in Cerritos & Long Beach"
-        description="Want to see what’s in your pipes? Call Prodigy Plumbers today to schedule a sewer camera inspection service for your Cerritos or Long Beach home or business."
+        title="Sewer Camera Inspection Services in Long Beach & LA County"
+        description="Want to see what’s in your pipes? Call Prodigy Plumbers today to schedule a sewer camera inspection service for your Long Beach or LA County home or business."
         // openGraphImage={data.openGraphImage.publicURL}
         // twitterOpenGraphImage={data.twitterOpenGraphImage.publicURL}
       />
@@ -48,8 +48,8 @@ const Page = ({ data }) => {
                   The best way to determine what’s happening inside a sewer line
                   is to send in a camera. We can get to the root of the problem
                   quickly, without digging. Let the professional plumbers at
-                  Prodigy inspect your home or business—serving Cerritos and
-                  Long Beach.
+                  Prodigy inspect your home or business—serving Long Beach and
+                  Los Angeles County.
                 </p>
               </div>
 
@@ -111,8 +111,8 @@ const Page = ({ data }) => {
                 </h3>
                 <p>
                   Want to see what’s in your pipes? Give us a call to schedule a
-                  sewer camera inspection service for your Cerritos or Long
-                  Beach home or business.
+                  sewer camera inspection service for your Long Beach or Los
+                  Angeles County home or business.
                 </p>
                 <ButtonSolid
                   href="tel:562-413-1928"

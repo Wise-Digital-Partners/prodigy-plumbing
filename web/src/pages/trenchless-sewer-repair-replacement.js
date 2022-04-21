@@ -13,11 +13,11 @@ const Page = ({ data }) => {
   return (
     <Layout
       ctaHeading="The #1 Choice"
-      ctaText="Prodigy is here for you when you need expert trenchless sewer repair or replacement in Cerritos and Long Beach. Get a free estimate today."
+      ctaText="Prodigy is here for you when you need expert trenchless sewer repair or replacement in Long Beach and Los Angeles County. Get a free estimate today."
     >
       <SearchEngineOptimization
         title="Trenchless Sewer Repair & Replacement | Prodigy Plumbing"
-        description="Say goodbye to a damaged lawn and demolished walls and floors. Get a free estimate for trenchless sewer repair and replacement in Cerritos and Long Beach."
+        description="Say goodbye to a damaged lawn and demolished walls and floors. Get a free estimate for trenchless sewer repair and replacement in Long Beach & LA County."
         // openGraphImage={data.openGraphImage.publicURL}
         // twitterOpenGraphImage={data.twitterOpenGraphImage.publicURL}
       />
@@ -50,7 +50,8 @@ const Page = ({ data }) => {
                   repair and replacement is cleaner, quicker, and more
                   cost-effective. Repairs typically take only a few hours, and
                   we can install a new sewer line in just a day or two. Prodigy
-                  proudly serves the communities of Cerritos and Long Beach.
+                  proudly serves the communities of Long Beach and Los Angeles
+                  County.
                 </p>
               </div>
 

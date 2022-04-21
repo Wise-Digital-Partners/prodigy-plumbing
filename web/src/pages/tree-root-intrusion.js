@@ -13,11 +13,11 @@ const Page = ({ data }) => {
   return (
     <Layout
       ctaHeading="The #1 Choice"
-      ctaText="Prodigy is here for you when you need expert tree root intrusion service in Cerritos and Long Beach. Get a free estimate today."
+      ctaText="Prodigy is here for you when you need expert tree root intrusion service in Long Beach and Los Angeles County. Get a free estimate today."
     >
       <SearchEngineOptimization
-        title="Tree Root Intrusion Services in Cerritos & Long Beach"
-        description="Call the Prodigy specialists for expert tree root intrusion service in Cerritos and Long Beach. Get a free estimate today. Ask us about our military discount!"
+        title="Tree Root Intrusion Services in Long Beach & LA County"
+        description="Call the Prodigy specialists for expert tree root intrusion service in Long Beach & LA County. Get a free estimate today. Ask us about our military discount!"
         // openGraphImage={data.openGraphImage.publicURL}
         // twitterOpenGraphImage={data.twitterOpenGraphImage.publicURL}
       />
@@ -48,7 +48,7 @@ const Page = ({ data }) => {
                   lot of damage. Tree root intrusion typically happens in clay
                   or concrete sewer lines, and also in dry climates. At Prodigy,
                   we can detect and provide you with solutions if it’s happening
-                  at your home or business in Cerritos or Long Beach.
+                  at your home or business in Long Beach or Los Angeles County.
                 </p>
               </div>
 
@@ -98,8 +98,8 @@ const Page = ({ data }) => {
               <div className="bg-gray-50 border-4 border-secondary-400 rounded-md p-10 mb-16">
                 <h3 className="heading-four normal-case">Call The Experts</h3>
                 <p>
-                  Get fast, professional service in Cerritos and Long Beach from
-                  Prodigy’s plumbing specialists.
+                  Get fast, professional service in Long Beach and Los Angeles
+                  County from Prodigy’s plumbing specialists.
                 </p>
                 <ButtonSolid
                   href="tel:562-413-1928"

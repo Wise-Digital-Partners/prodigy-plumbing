@@ -71,7 +71,7 @@ const ArchivePage = (props) => {
   return (
     <Layout headerHasBorder={true}>
       <SearchEngineOptimization
-        title="Blog | Prodigy Plumbing | Cerritos & Long Beach Plumber"
+        title="Blog | Prodigy Plumbing | Long Beach & LA County Plumber"
         description="Read our blog for top plumbing and HVAC tips from the Prodigy Plumbing pros. Subscribe, so you never miss a post!"
         // openGraphImage={data.openGraphImage.publicURL}
         // twitterOpenGraphImage={data.twitterOpenGraphImage.publicURL}

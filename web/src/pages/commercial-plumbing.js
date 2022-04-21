@@ -13,11 +13,11 @@ const Page = ({ data }) => {
   return (
     <Layout
       ctaHeading="The #1 Choice"
-      ctaText="Prodigy is here for you when you need professional commercial plumbing service in Cerritos or Long Beach. Get a free estimate today."
+      ctaText="Prodigy is here for you when you need professional commercial plumbing service in Long Beach or Los Angeles County. Get a free estimate today."
     >
       <SearchEngineOptimization
-        title="Commercial Plumber In Cerritos & Long Beach | Prodigy"
-        description="Hire the pros. Call Prodigy, the #1 rated commercial plumber in Cerritos and Long Beach. When we arrive, you know you're about to get the best service in town."
+        title="Commercial Plumber In Long Beach & LA County | Prodigy"
+        description="Hire the pros. Call Prodigy, the #1 rated commercial plumber in Long Beach & LA County. When we arrive, you know you're about to get the best service in town."
         // openGraphImage={data.openGraphImage.publicURL}
         // twitterOpenGraphImage={data.twitterOpenGraphImage.publicURL}
       />
@@ -33,7 +33,7 @@ const Page = ({ data }) => {
       >
         <div className="md:bg-secondary-800/80 md:rounded-3xl md:px-14 md:py-18 md:max-w-[570px]">
           <h1 className="md:text-white mb-0">
-            Commercial Plumber In Cerritos & Long Beach
+            Commercial Plumber In Long Beach & Los Angeles County
           </h1>
         </div>
       </Hero>
@@ -46,9 +46,9 @@ const Page = ({ data }) => {
                 <h2>Courteous. Clean. Trustworthy.</h2>
                 <p>
                   At Prodigy, we’re professional, and we over-deliver. We love
-                  serving the communities of Cerritos and Long Beach, and when
-                  our commercial plumbers arrive, you know you’re about to get
-                  the best service in town.
+                  serving the communities of Long Beach and Los Angeles County,
+                  and when our commercial plumbers arrive, you know you’re about
+                  to get the best service in town.
                 </p>
               </div>
 
@@ -84,9 +84,9 @@ const Page = ({ data }) => {
                   Call The Commercial Plumbing Experts
                 </h3>
                 <p>
-                  Get top-rated service in Cerritos and Long Beach from the
-                  licensed pros at Prodigy. Our team and fully equipped fleet
-                  can handle all your commercial plumbing needs.
+                  Get top-rated service in Long Beach and Los Angeles County
+                  from the licensed pros at Prodigy. Our team and fully equipped
+                  fleet can handle all your commercial plumbing needs.
                 </p>
                 <ButtonSolid
                   href="tel:562-413-1928"

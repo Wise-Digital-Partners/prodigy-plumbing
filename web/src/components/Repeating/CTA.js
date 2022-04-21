@@ -22,7 +22,7 @@ const CTA = ({ ctaHeading, headingLevel, ctaText, hideSubtext, className }) => {
           <div className="max-w-[700px]">
             <p className="text-lg lg:text-xl text-white mb-4.5">
               {ctaText ||
-                "Prodigy is the smart choice when you want premier plumbing services in Cerritos and Long Beach. Get a free estimate today."}
+                "Prodigy is the smart choice when you want premier plumbing services in Long Beach and Los Angeles County. Get a free estimate today."}
             </p>
 
             {hideSubtext !== true && (

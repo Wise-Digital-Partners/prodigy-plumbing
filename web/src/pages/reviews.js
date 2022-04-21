@@ -11,8 +11,8 @@ const Page = ({ data }) => {
   return (
     <Layout headerHasBorder={true}>
       <SearchEngineOptimization
-        title="Prodigy Plumbing Reviews | Cerritos & Long Beach"
-        description="With 1,500+ reviews from happy customers, Prodigy is the smart choice for a plumber and HVAC specialist in Cerritos and Long Beach. Get a free estimate today."
+        title="Prodigy Plumbing Reviews | Long Beach & LA County"
+        description="With 1,500+ reviews from happy customers, Prodigy is the smart choice for a plumber and HVAC specialist in Long Beach & LA County. Get a free estimate today."
         // openGraphImage={data.openGraphImage.publicURL}
         // twitterOpenGraphImage={data.twitterOpenGraphImage.publicURL}
       />
@@ -26,7 +26,7 @@ const Page = ({ data }) => {
         <h1>Backed By Our Customers</h1>
         <p className="text-lg md:text-xl text-gray-700">
           This is why we do what we do—over 1,500 reviews from happy customers
-          throughout Cerritos and Long Beach and beyond.
+          throughout Long Beach and Los Angeles County and beyond.
         </p>
 
         <ButtonSolid href="/review-us/" text="Review Us" />

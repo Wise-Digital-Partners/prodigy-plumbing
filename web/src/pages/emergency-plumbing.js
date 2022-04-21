@@ -16,8 +16,8 @@ const Page = ({ data }) => {
       ctaText="Prodigy is here for you when you have a clogged drain or sewer line or have questions about preventative maintenance. Get a free estimate today for drain and sewer services."
     >
       <SearchEngineOptimization
-        title="Emergency Plumbing in Cerritos & Long Beach | Prodigy"
-        description="Get help FAST from Prodigy's expert plumbers. Burst pipe? No problem. Major leak? We're on our way. Call us for emergency plumbing in Cerritos and Long Beach."
+        title="Emergency Plumbing in Long Beach & LA County | Prodigy"
+        description="Get help FAST from Prodigy's expert plumbers. Burst pipe? No problem. Major leak? We're on our way. Call us for emergency plumbing in Long Beach & LA County."
         // openGraphImage={data.openGraphImage.publicURL}
         // twitterOpenGraphImage={data.twitterOpenGraphImage.publicURL}
       />
@@ -33,7 +33,7 @@ const Page = ({ data }) => {
       >
         <div className="md:bg-secondary-800/80 md:rounded-3xl md:px-14 md:py-18 md:max-w-[570px]">
           <h1 className="md:text-white mb-0">
-            Emergency Plumbing in Cerritos & Long Beach
+            Emergency Plumbing in Long Beach & Los Angeles County
           </h1>
         </div>
       </Hero>
@@ -80,7 +80,7 @@ const Page = ({ data }) => {
                 </h3>
                 <p>
                   Get same-day emergency service from the #1 rated plumber in
-                  Cerritos and Long Beach.
+                  Long Beach and Los Angeles County.
                 </p>
                 <ButtonSolid
                   href="tel:562-413-1928"

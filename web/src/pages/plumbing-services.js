@@ -39,11 +39,11 @@ const Page = ({ data }) => {
   return (
     <Layout
       ctaHeading="We’re Here For You In An Emergency"
-      ctaText="Call the Prodigy pros when you need emergency plumbing service in Cerritos or Long Beach."
+      ctaText="Call the Prodigy pros when you need emergency plumbing service in Long Beach or Los Angeles County."
     >
       <SearchEngineOptimization
-        title="Plumbing Services in Long Beach & Cerritos | Prodigy"
-        description="Free estimates. Flat-rate pricing. 5-star service. Call Prodigy today for exceptional residential and commercial plumbing services in Cerritos and Long Beach."
+        title="Plumbing Services in Long Beach & LA County | Prodigy"
+        description="Free estimates. Flat-rate pricing. 5-star service. Call Prodigy today for exceptional residential and commercial plumbing services in Long Beach & LA County."
         // openGraphImage={data.openGraphImage.publicURL}
         // twitterOpenGraphImage={data.twitterOpenGraphImage.publicURL}
       />
@@ -55,7 +55,7 @@ const Page = ({ data }) => {
             <p className="text-secondary-400 md:text-xl">
               Free estimates. Flat-rate pricing. 5-star service. Choose Prodigy
               for exceptional residential and commercial plumbing services in
-              Cerritos and Long Beach.
+              Long Beach and Los Angeles County.
             </p>
           </header>
 

@@ -37,7 +37,7 @@ const PlumbingSideNav = ({ hiddenLink }) => {
     },
     {
       name: "HVAC Repair & Installation",
-      link: "/hvac-cerritos-long-beach/",
+      link: "/hvac-long-beach-la/",
     },
   ];
 

@@ -48,8 +48,8 @@ const Page = ({ data }) => {
       ctaText="Prodigy is here for you when you have a clogged drain or sewer line or have questions about preventative maintenance. Get a free estimate today for drain and sewer services."
     >
       <SearchEngineOptimization
-        title="Drain & Sewer Repair Services in Cerritos & Long Beach"
-        description="When you want the pros, call the drain and sewer service experts at Prodigy. Our team will keep your lines in working order. Serving Cerritos and Long Beach."
+        title="Drain & Sewer Repair Services in Long Beach & LA County"
+        description="When you want the pros, call the drain and sewer service experts at Prodigy. Our team will keep your lines in working order. Serving Long Beach & LA County."
         // openGraphImage={data.openGraphImage.publicURL}
         // twitterOpenGraphImage={data.twitterOpenGraphImage.publicURL}
       />
@@ -59,9 +59,9 @@ const Page = ({ data }) => {
           <header className="max-w-3xl mb-12 md:mb-14">
             <h1>Drain & Sewer Services</h1>
             <p className="text-secondary-400 md:text-xl">
-              Prodigy Plumbing is the #1 choice in Cerritos and Long Beach to
-              clear out clogs, perform repairs, and help keep your drains and
-              sewer lines in working order.
+              Prodigy Plumbing is the #1 choice in Long Beach and Los Angeles
+              County to clear out clogs, perform repairs, and help keep your
+              drains and sewer lines in working order.
             </p>
           </header>
 
