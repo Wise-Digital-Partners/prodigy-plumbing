@@ -114,14 +114,6 @@ const Footer = ({ hideFooter, ctaHeading, ctaText, hideSubtext }) => {
               >
                 <i className="fab fa-instagram text-3xl"></i>
               </a>
-              <a
-                href="https://twitter.com/ProdigyPlumbers"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-white hover:text-primary-500"
-              >
-                <i className="fab fa-twitter text-2xl"></i>
-              </a>
             </div>
           </div>
 
@@ -271,14 +263,6 @@ const Footer = ({ hideFooter, ctaHeading, ctaText, hideSubtext }) => {
                   className="text-white hover:text-primary-500"
                 >
                   <i className="fab fa-instagram text-3xl"></i>
-                </a>
-                <a
-                  href="https://twitter.com/ProdigyPlumbers"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="text-white hover:text-primary-500"
-                >
-                  <i className="fab fa-twitter text-2xl"></i>
                 </a>
               </div>
             </div>
