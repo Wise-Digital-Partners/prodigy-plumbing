@@ -587,18 +587,11 @@ const ReviewCards = ({ gridLayout }) => {
         "Calling a plumber during this Pandemic is a difficult decision. Prodigy’s tech came with mask, foot covers and gloves so I was relieved. Luis was very professional and efficient. Their rates are reasonable.",
     },
     {
-      name: "Chris	H",
+      name: "anonymous user",
       platform: data.yelp.childImageSharp.gatsbyImageData,
-      headshot:
-        "https://s3-media0.fl.yelpcdn.com/photo/caq3gcyUF-HQGx4CQ3SJIg/60s.jpg",
-      quote: "Lorem",
-    },
-    {
-      name: "User Name",
-      platform: data.yelp.childImageSharp.gatsbyImageData,
-      headshot:
+      headshot: "",
+      quote:
         "I recently moved into a new home in which the current water heater was well over its life expectancy. Rather than wait on the heater bursting and leaking everywhere, I decided that it was best to be proactive and replace the water heater. I reached out to Prodigy Plumbing and they were responsive from the start. They got my information, scheduled a technician to come out for a free quote. Before the technician arrived, the company called and let me know he was on his way. Once the technician arrived, Jose, we walked over to the water heater. He looked at it and provided instant feedback suggesting that I replace the water heater connectors and the gas line to include a sediment trap. He also provided me two different quotes (based on what I was asking for) between a tankless water heater and a tanked one (both reasonable based on other quotes I have received). He was upfront and told me that if I went tankless I would also need to install an electrical outlet, which would increase the cost. I decided to go with the tanked water heater. He then gave me a timeline of how long it would take (about 1 hour to get the heater, 1 hour to install, and about 2ish hours for the hot water to be ready). The guy did everything within 1 hour. His boss came by and dropped off the water heater! After it was done, he showed me the heater - it looked great. Definitely worth checking these guys out for any of your plumbing issues.",
-      quote: "Lorem",
     },
     {
       name: "Kelley Hoskins",
