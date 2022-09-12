@@ -2,6 +2,9 @@
   overflow-x: initial !important;
 }
 
+html{
+  overflow-x: hidden
+}
 a,
 button {
   @apply text-primary-500 font-heading font-black outline-none transition-all duration-300 ease-linear;

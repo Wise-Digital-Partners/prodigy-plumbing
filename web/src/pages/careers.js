@@ -182,7 +182,7 @@ const Page = ({ data }) => {
                 want to hear from you.
               </p>
               <ButtonWithIcon
-                href="#open-positions"
+                href="https://prodigyplumbers.applicantlist.com/"
                 text="View Open Positions"
               />
             </div>
