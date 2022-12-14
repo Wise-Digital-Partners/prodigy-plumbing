@@ -1,15 +1,22 @@
-import React from "react";
+import React, { useState } from "react";
 import { useStaticQuery, graphql } from "gatsby";
 import AniLink from "gatsby-plugin-transition-link/AniLink";
+import Link from "gatsby-plugin-transition-link";
+
 import { GatsbyImage } from "gatsby-plugin-image";
 import { BgImage } from "gbimage-bridge";
-
+import { mapEdgesToNodes } from "../../lib/helpers";
 import CallToAction from "../Repeating/CTA";
 import nestLogo from "../../images/global/Nest Logo.svg";
 
 const Footer = ({ hideFooter, ctaHeading, ctaText, hideSubtext }) => {
   const getYear = () => {
     return new Date().getFullYear();
+  };
+  const [cityDropdownOpen, setCityDropdownOpen] = useState(false);
+  const industriesClickHandler = () => {
+    setCityDropdownOpen(!cityDropdownOpen);
+    setStatesDropdownOpen(false);
   };
 
   const data = useStaticQuery(graphql`
@@ -26,8 +33,22 @@ const Footer = ({ hideFooter, ctaHeading, ctaText, hideSubtext }) => {
           gatsbyImageData(layout: CONSTRAINED, width: 122)
         }
       }
+      cities: allSanityCities(sort: { fields: [footerText], order: ASC }) {
+        edges {
+          node {
+            footerText
+            footerCTAText            
+            slug {
+              current
+            }
+          }
+        }
+      }
     }
   `);
+  const [statesDropdownOpen, setStatesDropdownOpen] = useState(false);
+
+  const cityNodes = data && data.cities && mapEdgesToNodes(data.cities);
 
   const navigation = {
     company: [
@@ -223,7 +244,44 @@ const Footer = ({ hideFooter, ctaHeading, ctaText, hideSubtext }) => {
                     Accessibility Statement
                   </AniLink>
                 </li> */}
-
+                <li className="text-sm">
+                  <button
+                    className="relative font-normal text-typography-heading/70 no-underline hover:text-primary-500"
+                    onClick={industriesClickHandler}
+                  >
+                    <span className="flex items-center justify-between">
+                      Cities
+                      <i
+                        className={`far fa-chevron-down ml-1 transform text-sm transition-all duration-300 ease-linear ${cityDropdownOpen ? "rotate-180" : "rotate-0"
+                          }`}
+                      ></i>
+                    </span>
+                    <ul
+                      className={`absolute bottom-0 left-0 flex max-h-28 transform flex-col space-y-1.5 overflow-y-scroll bg-white px-3 pt-4 pb-3 text-left transition-all duration-300 ease-linear md:px-4 md:pb-4 md:pt-5 ${cityDropdownOpen
+                          ? "visible -translate-y-8 opacity-100"
+                          : "invisible -translate-y-4 opacity-0"
+                        }`}
+                    >
+                      {cityNodes.map((item, i) => (
+                        <li
+                          className="cursor-auto whitespace-nowrap pb-1.5 font-body text-xs text-gray-700"
+                          key={i}
+                        >
+                          {item.slug ? (
+                            <Link
+                              to={`/${item.slug.current}/`}
+                              className="font-normal text-gray-700 no-underline hover:text-primary-500"
+                            >
+                              {item.footerText}
+                            </Link>
+                          ) : (
+                            item.footerText
+                          )}
+                        </li>
+                      ))}
+                    </ul>
+                  </button>
+                </li>
                 <li className="text-xs w-full md:w-auto mt-6 md:mt-0">
                   <a
                     className="text-gray-50 hover:text-primary-500 font-body font-normal flex items-center justify-center md:justify-start space-x-1"

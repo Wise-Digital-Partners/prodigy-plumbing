@@ -2,7 +2,7 @@ import S from "@sanity/desk-tool/structure-builder";
 import { MdSettings } from "react-icons/md";
 import { MdPerson, MdDescription, MdCategory } from "react-icons/md";
 import IframePreview from "../previews/IframePreview";
-
+import { FcDocument, FcRating, FcReading, FcList, FcGlobe, FcConferenceCall } from "react-icons/fc";
 // Web preview configuration
 const remoteURL = "https://prodigy-plumbing.netlify.app";
 const localURL = "http://localhost:8000";
@@ -55,19 +55,21 @@ export const getDefaultDocumentNode = (props) => {
      S.divider(),
      S.listItem()
        .title("Blog Posts")
-       .icon(MdDescription)
+       .icon(FcDocument)
        .schemaType("post")
        .child(S.documentTypeList("post").title("Blog Posts")),
      S.listItem()
        .title("Blog Authors")
-       .icon(MdPerson)
+       .icon(FcReading)
        .schemaType("author")
        .child(S.documentTypeList("author").title("Blog Authors")),
      S.listItem()
        .title("Blog Categories")
-       .icon(MdCategory)
+       .icon(FcList)
        .schemaType("category")
        .child(S.documentTypeList("category").title("Blog Categories")),
+     S.listItem().title("Cities").icon(FcGlobe).schemaType("cities").child(S.documentTypeList("cities").title("Cities")),
+
      // `S.documentTypeListItems()` returns an array of all the document types
      // defined in schema.js. We filter out those that we have
      // defined the structure above.

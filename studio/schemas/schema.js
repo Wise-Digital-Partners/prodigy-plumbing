@@ -14,6 +14,15 @@ import siteSettings from "./documents/siteSettings";
 // Object types
 import bodyPortableText from "./objects/bodyPortableText";
 import mainImage from "./objects/mainImage";
+import cities from "./documents/cities";
+import iframe from "./objects/iframe";
+import image from "./objects/image";
+import accordion from "./objects/accordion";
+import navLinks from "./objects/navLinks";
+// import headingText from "./objects/headingText";
+import list from "./objects/list";
+import link from "./objects/link";
+import coordinates from "./objects/coordinates";
 
 // Then we give our schema to the builder and provide the result to Sanity
 export default createSchema({
@@ -31,6 +40,14 @@ export default createSchema({
     author,
     mainImage,
     bodyPortableText,
+    cities,
+    iframe,
+    image,
+    accordion,
+    navLinks,
+    list,
+    link,
+    coordinates,
 
     // When added to this list, object types can be used as
     // { type: 'typename' } in other document schemas
