@@ -8,7 +8,7 @@ import SearchEngineOptimization from "../components/SEO";
 import Hero from "../components/Hero/HeroFullWidth";
 import AniLink from "gatsby-plugin-transition-link/AniLink";
 
-import CallToAction from "../components/Repeating/CTA";
+// import CallToAction from "../components/Repeating/CTA";
 import ButtonSolid from "../components/Button/ButtonSolid";
 import ButtonWithIcon from "../components/Button/ButtonWithIcon";
 import ButtonGhost from "../components/Button/ButtonGhost";
@@ -80,6 +80,7 @@ plumbing: file(relativePath: { eq: "home/plumbing.jpg" }) {
         }
       }
       _rawWhyWeLoveText
+      footerCTAText
       footerText
     }
   }
