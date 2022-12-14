@@ -224,11 +224,11 @@ const Template = ({ data }) => {
         <section className="mb-20 md:mb-32">
           <div className="container">
             <div className="grid lg:grid-cols-12 md:gap-x-7 xl:gap-x-20">
-              <div className="col-span-auto lg:col-span-5 flex flex-col justify-items-center place-content-center">
+              <div className="col-span-auto md:col-span-6 lg:col-span-5 flex flex-col justify-items-center place-content-center">
                 <h2>Why We Love {data.city.title}</h2>
                 <PortableText blocks={data.city._rawWhyWeLoveText} />
               </div>
-              <div className="col-span-auto lg:col-span-7">
+              <div className="col-span-auto md:col-span-6 lg:col-span-7">
                 <GatsbyImage image={data.city.whyWeLoveImage.asset.gatsbyImageData} className="z-0 mb-10 rounded-3xl" />
               </div>
 
