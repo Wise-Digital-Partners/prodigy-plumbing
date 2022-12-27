@@ -52,7 +52,7 @@ text-center ${
       <a href="/prodigy-plumbing-expands-to-orange-county/" className="w-full h-full group group-hover:text-primary-500 transition-all  text-white z-[15]">
       <div className="absolute w-full mix-blend-multiply h-full  "></div>
         <div className="container  ">
-          <div className="py-5">
+          <div className="pt-8 pb-5">
             <p className="  m-0 p-0 text-[20px]  leading-[100%] font-extrabold text-body font-heading">
               Prodigy Plumbing is now serving Orange County! Learn more <span className="group-hover:left-3 group-hover:text-tertiary-50 relative transition-all ease duration-300 left-0 ">→</span>
             </p>
