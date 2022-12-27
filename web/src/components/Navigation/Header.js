@@ -1,6 +1,6 @@
 import React, { useState, useLayoutEffect } from "react";
 
-// import PromoBar from "../Header/PromoBar";
+// import PromoBar from "../Navigation/PromoBar";
 // import UtilityNav from "../Navigation/UtilityNav";
 import MainNav from "../Navigation/MainNav";
 
@@ -107,7 +107,6 @@ const Header = ({
       id="site-navigation"
       className={`relative z-30 ${hideHeader && "!hidden"}`}
     >
-      {/* <PromoBar /> */}
       {/* <UtilityNav /> */}
       <MainNav
         scrolled={scrolled}

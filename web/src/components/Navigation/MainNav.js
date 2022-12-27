@@ -3,8 +3,8 @@ import { useStaticQuery, graphql } from "gatsby";
 import { useOnClickOutside } from "../../hooks";
 import AniLink from "gatsby-plugin-transition-link/AniLink";
 import { GatsbyImage } from "gatsby-plugin-image";
-
 import Burger from "./Burger";
+import PromoBar1 from "./PromoBar";
 import OffCanvas from "../OffCanvas/OffCanvas";
 import ButtonSolid from "../Button/ButtonSolid";
 import {
@@ -146,7 +146,7 @@ const MainNav = ({
   return (
     <nav
       id="main-navigation"
-      className={`py-2 bg-tertiary-50 shadow-3xl w-full transition duration-300 ease-linear ${
+      className={` bg-tertiary-50 shadow-3xl w-full transition duration-300 ease-linear ${
         headerStyle === "overlap" ? "lg:bg-transparent" : "lg:bg-tertiary-50"
       } ${headerHasBorder && ""} ${offcanvasOpen ? "" : ""} ${
         headerDarkMode && ""
@@ -158,7 +158,8 @@ const MainNav = ({
       aria-label="main-navigation"
       offcanvas-open={offcanvasOpen}
     >
-      <div className="container flex justify-between items-center">
+      <PromoBar1 href="/prodigy-plumbing-expands-to-orange-county/" />
+      <div className="container flex justify-between items-center py-2">
         <div className="flex flex-auto lg:hidden">
           <a href="tel:562-413-1928">
             <i className="fas fa-phone text-lg text-secondary-800"></i>
@@ -501,6 +502,7 @@ const MainNav = ({
         </div>
       </div>
     </nav>
+    
   );
 };
 export default MainNav;
