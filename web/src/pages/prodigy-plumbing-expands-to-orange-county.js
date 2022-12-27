@@ -78,7 +78,7 @@ const ArchivePage = (props) => {
   return (
     <Layout headerHasBorder={true}>
       <SearchEngineOptimization
-        title="Blog | Prodigy Plumbing | Long Beach & LA County Plumber"
+        title="Prodigy Plumbing Is Expanding Services to Orange County"
         description="Prodigy Plumbing is excited to announce our expansion into Orange County. Watch our announcement here!"
       // openGraphImage={data.openGraphImage.publicURL}
       // twitterOpenGraphImage={data.twitterOpenGraphImage.publicURL}
