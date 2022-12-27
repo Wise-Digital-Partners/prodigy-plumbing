@@ -54,7 +54,7 @@ text-center ${
         <div className="container  ">
           <div className="py-5">
             <p className="  m-0 p-0 text-[20px]  leading-[100%] font-extrabold text-body font-heading">
-              Prodigy Plumbing is now serving Orange County! Learn more <span className="group-hover:left-3 group-hover:text-primary-500 relative transition-all ease duration-300 left-0 ">→</span>
+              Prodigy Plumbing is now serving Orange County! Learn more <span className="group-hover:left-3 group-hover:text-tertiary-50 relative transition-all ease duration-300 left-0 ">→</span>
             </p>
           </div>
         </div>

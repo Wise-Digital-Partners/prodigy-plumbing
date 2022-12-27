@@ -158,7 +158,7 @@ const MainNav = ({
       aria-label="main-navigation"
       offcanvas-open={offcanvasOpen}
     >
-      <PromoBar1 href="/prodigy-plumbing-expands-to-orange-county/" />
+      <PromoBar1/>
       <div className="container flex justify-between items-center py-2">
         <div className="flex flex-auto lg:hidden">
           <a href="tel:562-413-1928">
