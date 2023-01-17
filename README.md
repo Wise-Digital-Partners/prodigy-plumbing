@@ -41,3 +41,4 @@ Join [Sanity’s developer community](https://slack.sanity.io) or ping us [on tw
 #FORCE UPDATE -- 10/27/2022
 #FORCE UPDATE -- 12/14/2022
 #FORCE UPDATE -- 12/27/2022
+#FORCE UPDATE -- 01/17/2023
