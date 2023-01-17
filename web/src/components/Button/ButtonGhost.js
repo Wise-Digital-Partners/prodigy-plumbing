@@ -11,6 +11,7 @@ const Button = ({
   altStyle,
   icon,
   text,
+  customClass
 }) => {
   const Tag = href ? AniLink : "button";
   const target = outboundLink && "_blank";
@@ -25,7 +26,7 @@ const Button = ({
         altStyle
           ? "text-white hover:text-white bg-transparent hover:bg-primary-500 border-primary-500 hover:border-primary-500"
           : "text-secondary-800 hover:text-white bg-transparent hover:bg-primary-500 border-primary-500 hover:border-primary-500"
-      } ${className || ""}`}
+      } ${className || ""} ${customClass ? "border-white border-solid border-1" : "" } `}
       {...(link ? { fade: "true", to: href } : { href: href })}
       target={target}
       rel={rel}
