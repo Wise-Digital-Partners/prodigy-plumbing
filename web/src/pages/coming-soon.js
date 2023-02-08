@@ -18,7 +18,7 @@ const Page = ({ data }) => {
             className="h-screen min-h-full overflow-x-hidden backdrop-blur-sm"
             padding="md:py-20 py-140"
         >
-            <section className="pt-[6.5rem] px-5 md:px-14 md:pt-16 pb-20 md:pb-32 relative">
+            <section className="pt-[6.5rem] px-5 md:px-14 md:pt-16  md:pb-32 relative">
 
                 <div className="bg-secondary-800 rounded-3xl max-w-[960px] mx-auto  py-18 ">
                     {/* logo */}

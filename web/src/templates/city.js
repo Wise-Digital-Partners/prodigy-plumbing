@@ -79,6 +79,7 @@ plumbing: file(relativePath: { eq: "home/plumbing.jpg" }) {
           gatsbyImageData(layout: CONSTRAINED, width: 1200)
         }
       }
+      whyWeLoveTitle
       _rawWhyWeLoveText
       footerCTAText
       footerText
@@ -225,9 +226,10 @@ const Template = ({ data }) => {
           <div className="container">
             <div className="grid lg:grid-cols-12 md:gap-x-7 xl:gap-x-20">
               <div className="col-span-auto md:col-span-6 lg:col-span-5 flex flex-col justify-items-center place-content-center">
-                <h2>Why We Love {data.city.title}</h2>
+                <h2>{data.city.whyWeLoveTitle ? (data.city.whyWeLoveTitle) :  `What We Love About ${data.city.footerText}`}</h2>
                 <PortableText blocks={data.city._rawWhyWeLoveText} />
-              </div>
+              </div>              
+
               <div className="col-span-auto md:col-span-6 lg:col-span-7">
                 <GatsbyImage image={data.city.whyWeLoveImage.asset.gatsbyImageData} className="z-0 mb-10 rounded-3xl" />
               </div>

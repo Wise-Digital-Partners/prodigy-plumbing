@@ -71,20 +71,21 @@ export default {
          title: "Why We Love Image",
          name: "whyWeLoveImage",
          type: "image",
-         validation: (Rule) => Rule.required(),
       },
-
+      {
+         title: "Why We Love Title",
+         name: "whyWeLoveTitle",
+         type: "string",
+      },
       {
          title: "Why We Love Text",
          name: "whyWeLoveText",
          type: "bodyPortableText",
-         validation: (Rule) => Rule.required(),
       },      
       {
          title: "Footer CTA Text",
          name: "footerCTAText",
          type: "string",
-         validation: (Rule) => Rule.required(),
       },
       {
          title: "Order",
