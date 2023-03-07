@@ -9,7 +9,7 @@ export const Reviews = ({ gridLayout }) => {
   const StyledReviews = styled.div``;
   const masonryOptions = {
     itemSelector: ".masonry-item",
-    horizontalOrder: false,
+    horizontalOrder: true,
   };
 
   let gridClass = null;
